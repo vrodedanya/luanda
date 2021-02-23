@@ -1,5 +1,5 @@
->git submodule init
->git submodule update
->go to lua
->make
+`git submodule init`
+`git submodule update`
+Go to lua
+`make`
 You are adorable!
