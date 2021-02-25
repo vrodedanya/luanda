@@ -8,7 +8,10 @@ namespace luanda
 	class lua_manager
 	{
 	private:
+		lua_State* lvm = nullptr;
 	public:
+		lua_manager(const char* script_name);
+		~lua_manager();
 	};
 }
 

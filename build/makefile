@@ -19,7 +19,7 @@ CFLAGS := -Wall -O0 -g -I../ -I../include
 # Linker flags (ex: -pthread)
 LDFLAGS :=
 # Libs (ex: -lm, -lncurses, -lSDL2)
-LIBS := -L../lua -llua
+LIBS := -L../lua -llua -ldl
 # Defines (ex: -D DEBUG, -Dcount=5)
 DEF := -D DEBUG
 # Directories with source code (ex: source)
